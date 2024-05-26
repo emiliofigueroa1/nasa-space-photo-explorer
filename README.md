@@ -4,11 +4,8 @@ This is an frontend project using ReactJS that shows picture of space from NASA 
 
 Resources Used:
 
-React
-  -  useEffect
-  -  useState
-JavaScript
-  - Json Parsing and Handling
+React ( useEffect & useState )
+JavaScript ( Json Parsing & Handling )
 CSS
 HTML 
 NASA API 
