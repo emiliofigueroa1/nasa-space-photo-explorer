@@ -8,7 +8,7 @@ React
   -  useEffect
   -  useState
 JavaScript
-     Json Parsing and Handling
+  - Json Parsing and Handling
 CSS
 HTML 
 NASA API 
