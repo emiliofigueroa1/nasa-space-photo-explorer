@@ -1,0 +1,110 @@
+.image-container {
+    width: 600px;
+    height: 600px;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+}
+
+.spaceImage {
+    width: 550px;
+    height: 550px;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(42, 90, 212);
+}
+
+.sub-header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: larger;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.react-logo {
+    width: 40px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Adjust spacing between text and logo */
+}
+
+.next-photo {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    right: 10px; /* Adjust the distance from the right side */
+    transform: translateY(-50%); /* Move it up by half of its own height */
+    padding: 10px 20px;
+    background-color: rgb(42, 90, 212);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 70px;
+    font-size: 25px;
+}
+
+.deep-dive {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 10px; /* Adjust the distance from the left side */
+    transform: translateY(-50%); /* Move it up by half of its own height */
+    padding: 10px 20px; /* Adjust padding to make it bigger */
+    font-size: 20px; /* Adjust font size */
+    background-color: rgb(42, 90, 212);
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Adjust border radius for a smoother appearance */
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+.desc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+  
+.favorite-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.star {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+  
+.favLabel {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-fav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: 5px solid  rgb(192, 145, 26);
+    position: static;
+}
+
+.fav-error{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(42, 90, 212);
+}
+
+.fav-photo{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(42, 90, 212);
+}
