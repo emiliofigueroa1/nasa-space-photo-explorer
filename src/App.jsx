@@ -31,7 +31,7 @@ function App() {
     if (imageJson.length > 0 && random !== null) {
       return <img className="spaceImage" src={imageJson[random].links[0].href} alt="Space" />; // takes the image that is created by random and gets its link
     } else {
-      return null; // Or you can return a placeholder image or loading indicator
+      return <h1>SPACE PHOTO</h1>; // Or you can return a placeholder image or loading indicator
     }
   }
 
